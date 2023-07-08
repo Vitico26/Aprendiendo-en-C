@@ -16,5 +16,6 @@ fputc(p1, ar);
 fclose(ar); /* Se cierra el archivo. */
 }
 else
-printf("No se puede abrir el archivo");
+printf("No se puede abrir el archivo", "w");
+
 }
